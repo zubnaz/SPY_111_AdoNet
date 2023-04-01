@@ -17,5 +17,7 @@ namespace _06_02_EntityFramework.Entities
         public string Email { get; set; }
         public DateTime? Birthdate { get; set; }
         public ICollection<Flight> Flights { get; set; }
+        public Accounts Accounts { get; set; }
+        public  int? AccountsId { get; set; }
     }
 }
